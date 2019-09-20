@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D2C22E423352F1C00198AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C22E323352F1C00198AFE /* AppDelegate.swift */; };
+		6D2C22E623352F1C00198AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C22E523352F1C00198AFE /* ViewController.swift */; };
+		6D2C22E923352F1C00198AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C22E723352F1C00198AFE /* Main.storyboard */; };
+		6D2C22EB23352F2300198AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C22EA23352F2300198AFE /* Assets.xcassets */; };
+		6D2C22EE23352F2300198AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D2C22EC23352F2300198AFE /* LaunchScreen.storyboard */; };
+		6D2C22F923352F2300198AFE /* ios_ChoicePopOverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C22F823352F2300198AFE /* ios_ChoicePopOverTests.swift */; };
+		6D2C230423352F2300198AFE /* ios_ChoicePopOverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C230323352F2300198AFE /* ios_ChoicePopOverUITests.swift */; };
+		6D2C23132335310800198AFE /* ArrayChoiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C23122335310800198AFE /* ArrayChoiceTableViewController.swift */; };
+		6D2C23152335318200198AFE /* AlwaysPresentAsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C23142335318200198AFE /* AlwaysPresentAsPopover.swift */; };
+		6D2C23192335361C00198AFE /* ViewController + popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C23182335361C00198AFE /* ViewController + popup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D2C22F523352F2300198AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2C22D823352F1C00198AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2C22DF23352F1C00198AFE;
+			remoteInfo = "ios-ChoicePopOver";
+		};
+		6D2C230023352F2300198AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D2C22D823352F1C00198AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D2C22DF23352F1C00198AFE;
+			remoteInfo = "ios-ChoicePopOver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D2C22E023352F1C00198AFE /* ios-ChoicePopOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-ChoicePopOver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2C22E323352F1C00198AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D2C22E523352F1C00198AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D2C22E823352F1C00198AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D2C22EA23352F2300198AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D2C22ED23352F2300198AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D2C22EF23352F2300198AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2C22F423352F2300198AFE /* ios-ChoicePopOverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ChoicePopOverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2C22F823352F2300198AFE /* ios_ChoicePopOverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ChoicePopOverTests.swift; sourceTree = "<group>"; };
+		6D2C22FA23352F2300198AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2C22FF23352F2300198AFE /* ios-ChoicePopOverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ChoicePopOverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D2C230323352F2300198AFE /* ios_ChoicePopOverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ChoicePopOverUITests.swift; sourceTree = "<group>"; };
+		6D2C230523352F2300198AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D2C23122335310800198AFE /* ArrayChoiceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayChoiceTableViewController.swift; sourceTree = "<group>"; };
+		6D2C23142335318200198AFE /* AlwaysPresentAsPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysPresentAsPopover.swift; sourceTree = "<group>"; };
+		6D2C23182335361C00198AFE /* ViewController + popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + popup.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D2C22DD23352F1C00198AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2C22F123352F2300198AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2C22FC23352F2300198AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D2C22D723352F1C00198AFE = {
+			isa = PBXGroup;
+			children = (
+				6D2C22E223352F1C00198AFE /* ios-ChoicePopOver */,
+				6D2C22F723352F2300198AFE /* ios-ChoicePopOverTests */,
+				6D2C230223352F2300198AFE /* ios-ChoicePopOverUITests */,
+				6D2C22E123352F1C00198AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D2C22E123352F1C00198AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C22E023352F1C00198AFE /* ios-ChoicePopOver.app */,
+				6D2C22F423352F2300198AFE /* ios-ChoicePopOverTests.xctest */,
+				6D2C22FF23352F2300198AFE /* ios-ChoicePopOverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D2C22E223352F1C00198AFE /* ios-ChoicePopOver */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C2311233530F800198AFE /* MenuPopOver */,
+				6D2C22E323352F1C00198AFE /* AppDelegate.swift */,
+				6D2C22E523352F1C00198AFE /* ViewController.swift */,
+				6D2C22E723352F1C00198AFE /* Main.storyboard */,
+				6D2C22EA23352F2300198AFE /* Assets.xcassets */,
+				6D2C22EC23352F2300198AFE /* LaunchScreen.storyboard */,
+				6D2C22EF23352F2300198AFE /* Info.plist */,
+			);
+			path = "ios-ChoicePopOver";
+			sourceTree = "<group>";
+		};
+		6D2C22F723352F2300198AFE /* ios-ChoicePopOverTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C22F823352F2300198AFE /* ios_ChoicePopOverTests.swift */,
+				6D2C22FA23352F2300198AFE /* Info.plist */,
+			);
+			path = "ios-ChoicePopOverTests";
+			sourceTree = "<group>";
+		};
+		6D2C230223352F2300198AFE /* ios-ChoicePopOverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C230323352F2300198AFE /* ios_ChoicePopOverUITests.swift */,
+				6D2C230523352F2300198AFE /* Info.plist */,
+			);
+			path = "ios-ChoicePopOverUITests";
+			sourceTree = "<group>";
+		};
+		6D2C2311233530F800198AFE /* MenuPopOver */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C23122335310800198AFE /* ArrayChoiceTableViewController.swift */,
+				6D2C23142335318200198AFE /* AlwaysPresentAsPopover.swift */,
+				6D2C23182335361C00198AFE /* ViewController + popup.swift */,
+			);
+			path = MenuPopOver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D2C22DF23352F1C00198AFE /* ios-ChoicePopOver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2C230823352F2300198AFE /* Build configuration list for PBXNativeTarget "ios-ChoicePopOver" */;
+			buildPhases = (
+				6D2C22DC23352F1C00198AFE /* Sources */,
+				6D2C22DD23352F1C00198AFE /* Frameworks */,
+				6D2C22DE23352F1C00198AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-ChoicePopOver";
+			productName = "ios-ChoicePopOver";
+			productReference = 6D2C22E023352F1C00198AFE /* ios-ChoicePopOver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D2C22F323352F2300198AFE /* ios-ChoicePopOverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2C230B23352F2300198AFE /* Build configuration list for PBXNativeTarget "ios-ChoicePopOverTests" */;
+			buildPhases = (
+				6D2C22F023352F2300198AFE /* Sources */,
+				6D2C22F123352F2300198AFE /* Frameworks */,
+				6D2C22F223352F2300198AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2C22F623352F2300198AFE /* PBXTargetDependency */,
+			);
+			name = "ios-ChoicePopOverTests";
+			productName = "ios-ChoicePopOverTests";
+			productReference = 6D2C22F423352F2300198AFE /* ios-ChoicePopOverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D2C22FE23352F2300198AFE /* ios-ChoicePopOverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2C230E23352F2300198AFE /* Build configuration list for PBXNativeTarget "ios-ChoicePopOverUITests" */;
+			buildPhases = (
+				6D2C22FB23352F2300198AFE /* Sources */,
+				6D2C22FC23352F2300198AFE /* Frameworks */,
+				6D2C22FD23352F2300198AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D2C230123352F2300198AFE /* PBXTargetDependency */,
+			);
+			name = "ios-ChoicePopOverUITests";
+			productName = "ios-ChoicePopOverUITests";
+			productReference = 6D2C22FF23352F2300198AFE /* ios-ChoicePopOverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D2C22D823352F1C00198AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "eduardo mancilla";
+				TargetAttributes = {
+					6D2C22DF23352F1C00198AFE = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					6D2C22F323352F2300198AFE = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6D2C22DF23352F1C00198AFE;
+					};
+					6D2C22FE23352F2300198AFE = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6D2C22DF23352F1C00198AFE;
+					};
+				};
+			};
+			buildConfigurationList = 6D2C22DB23352F1C00198AFE /* Build configuration list for PBXProject "ios-ChoicePopOver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D2C22D723352F1C00198AFE;
+			productRefGroup = 6D2C22E123352F1C00198AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D2C22DF23352F1C00198AFE /* ios-ChoicePopOver */,
+				6D2C22F323352F2300198AFE /* ios-ChoicePopOverTests */,
+				6D2C22FE23352F2300198AFE /* ios-ChoicePopOverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D2C22DE23352F1C00198AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C22EE23352F2300198AFE /* LaunchScreen.storyboard in Resources */,
+				6D2C22EB23352F2300198AFE /* Assets.xcassets in Resources */,
+				6D2C22E923352F1C00198AFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2C22F223352F2300198AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2C22FD23352F2300198AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D2C22DC23352F1C00198AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C23192335361C00198AFE /* ViewController + popup.swift in Sources */,
+				6D2C23152335318200198AFE /* AlwaysPresentAsPopover.swift in Sources */,
+				6D2C22E623352F1C00198AFE /* ViewController.swift in Sources */,
+				6D2C22E423352F1C00198AFE /* AppDelegate.swift in Sources */,
+				6D2C23132335310800198AFE /* ArrayChoiceTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2C22F023352F2300198AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C22F923352F2300198AFE /* ios_ChoicePopOverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2C22FB23352F2300198AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C230423352F2300198AFE /* ios_ChoicePopOverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D2C22F623352F2300198AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2C22DF23352F1C00198AFE /* ios-ChoicePopOver */;
+			targetProxy = 6D2C22F523352F2300198AFE /* PBXContainerItemProxy */;
+		};
+		6D2C230123352F2300198AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D2C22DF23352F1C00198AFE /* ios-ChoicePopOver */;
+			targetProxy = 6D2C230023352F2300198AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D2C22E723352F1C00198AFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2C22E823352F1C00198AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D2C22EC23352F2300198AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D2C22ED23352F2300198AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D2C230623352F2300198AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D2C230723352F2300198AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D2C230923352F2300198AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HST74PQ598;
+				INFOPLIST_FILE = "ios-ChoicePopOver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.dev.ios-ChoicePopOver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D2C230A23352F2300198AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HST74PQ598;
+				INFOPLIST_FILE = "ios-ChoicePopOver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.dev.ios-ChoicePopOver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D2C230C23352F2300198AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ChoicePopOverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.dev.ios-ChoicePopOverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-ChoicePopOver.app/ios-ChoicePopOver";
+			};
+			name = Debug;
+		};
+		6D2C230D23352F2300198AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ChoicePopOverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.dev.ios-ChoicePopOverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-ChoicePopOver.app/ios-ChoicePopOver";
+			};
+			name = Release;
+		};
+		6D2C230F23352F2300198AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ChoicePopOverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.dev.ios-ChoicePopOverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-ChoicePopOver";
+			};
+			name = Debug;
+		};
+		6D2C231023352F2300198AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ios-ChoicePopOverUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "black.dev.ios-ChoicePopOverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-ChoicePopOver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D2C22DB23352F1C00198AFE /* Build configuration list for PBXProject "ios-ChoicePopOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C230623352F2300198AFE /* Debug */,
+				6D2C230723352F2300198AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2C230823352F2300198AFE /* Build configuration list for PBXNativeTarget "ios-ChoicePopOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C230923352F2300198AFE /* Debug */,
+				6D2C230A23352F2300198AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2C230B23352F2300198AFE /* Build configuration list for PBXNativeTarget "ios-ChoicePopOverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C230C23352F2300198AFE /* Debug */,
+				6D2C230D23352F2300198AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2C230E23352F2300198AFE /* Build configuration list for PBXNativeTarget "ios-ChoicePopOverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2C230F23352F2300198AFE /* Debug */,
+				6D2C231023352F2300198AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D2C22D823352F1C00198AFE /* Project object */;
+}
